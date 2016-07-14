@@ -1,0 +1,29 @@
+/*
+*categoryList
+*/
+.categoryList{
+  &_heading{
+    margin-bottom: 16px;
+    padding: 0 6px;
+    background: #F8F8F8;
+    border-bottom: 1px solid #B7B7B7;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #666;
+  }
+  &_inner{
+    list-style: none;
+    padding: 0;
+    & li{
+      padding: 10px 0;
+    }
+    &-catName{
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+}
+/*
+/categoryList end
+*/

@@ -1,0 +1,20 @@
+/*
+*movieListControl
+*/
+.movieListControl{
+  &_inner{
+    &-selectBox{
+      float: left;
+      width: 66%;
+      padding: 2%;
+    }
+    &-add{
+      float: left;
+      width: 26%;
+      padding: 2%;
+    }
+  }
+}
+/*
+/movieListControl end
+*/

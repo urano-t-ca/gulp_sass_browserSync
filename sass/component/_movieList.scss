@@ -1,0 +1,44 @@
+/*
+*movieList
+*/
+.movieList{
+  margin-bottom: 40px;
+  &_heading{
+    color: #4597F5;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  &_inner{
+    padding: 2%;
+    border-bottom: 1px solid #ccc;
+    .movieList_leftCol{
+      float: left;
+      width: 50%;
+      &-cat,&-group{
+        margin-bottom: 16px;
+      }
+    }
+    .movieList_rightCol{
+      float: left;
+      width: 50%;
+    }
+  }
+}
+.movieListTag{
+  padding: 4px 8px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.moviePlayTime{
+  display: inline-block;
+  margin-right: 10px;
+}
+.movieCapacity{
+  display: inline-block;
+}
+
+
+/*
+/movieList end
+*/

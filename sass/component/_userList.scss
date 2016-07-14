@@ -1,0 +1,40 @@
+/*
+*userList
+*/
+.userList{
+  &_user{
+    width: 30%;
+  }
+  &_roll{
+    width: 20%;
+  }
+  &_groupTag{
+    width: 50%;
+  }
+  th{
+    background: #F8F8F8;
+    border-bottom: 1px solid #C6C6C6!important;
+    color: #4597F5;
+  }
+  td{
+    border-bottom: 1px solid #C6C6C6;
+  }
+  .rollTag-admin{
+    color: #D6152B;
+  }
+  .rollTag-general{
+    color: #F5AF3A;
+  }
+  .groupTag{
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+  }
+
+}
+
+
+/*
+/userList end
+*/

@@ -1,0 +1,52 @@
+/*
+*categoryRegister
+*/
+.categoryRegister{
+  &_inner{
+    &-discription{
+      margin-bottom: 8px;
+      padding: 2% 2% 0% 2%;
+    }
+    &-heading{
+      float: left;
+      width: 34%;
+      padding: 0 2% 2% 2%;
+      font-size: 20px;
+    }
+    &-nameInput{
+      float: left;
+      width: 45%;
+      padding: 0 2% 2% 2%;
+    }
+    &-registBtn{
+      float: left;
+      width: 15%;
+      padding: 0 2% 2% 2%;
+    }
+  }
+}
+@media screen and (max-width:767px) {
+  .categoryRegister{
+    &_inner{
+      &-discription{
+        padding: 1% 1% 0% 1%;
+      }
+      &-heading{
+        width: 38%;
+        padding: 0 1% 1% 1%;
+        font-size: 16px;
+      }
+      &-nameInput{
+        width: 41%;
+        padding: 0 1% 1% 1%;
+      }
+      &-registBtn{
+        padding: 0 1% 1% 1%;
+      }
+    }
+  }
+}
+
+/*
+/categoryRegister end
+*/

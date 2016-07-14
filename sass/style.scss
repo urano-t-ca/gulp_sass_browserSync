@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*
+*全てのコンポーネントのベース
+*/
+/*common*/
+@import "common/_common.scss";
+/*conponent*/
+@import "component/_inputAlert.scss";
+@import "component/_header.scss";
+@import "component/_userSearcher.scss";
+@import "component/_userList.scss";
+@import "component/_categoryRegister.scss";
+@import "component/_categoryList.scss";
+@import "component/_movieListControl.scss";
+@import "component/_movieList.scss";

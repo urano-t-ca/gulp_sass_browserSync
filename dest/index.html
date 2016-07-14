@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ログイン</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/paper/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container pt8par">
+      <h1 class="text-center text-blue fontSize-lg">Admin用(仮)</h1>
+      <div class="form-group row mb4par">
+        <label for="inputID" class="col-xs-12 col-md-offset-1 col-sm-offset-1 col-lg-offset-2 control-label">ユーザーID</label>
+        <div class="col-xs-12 col-sm-10 col-lg-8 col-sm-offset-1 col-md-offset-1 col-lg-offset-2">
+          <input type="text" class="form-control-normal" id="inputID" placeholder="ユーザーID" required>
+        </div>
+      </div>
+      <div class="form-group row mb4par">
+        <label for="inputPassword" class="col-xs-12 col-sm-offset-1 col-md-offset-1 col-lg-offset-2 control-label">パスワード</label>
+        <div class="col-xs-12 col-sm-10 col-lg-8 col-md-offset-1 col-sm-offset-1 col-lg-offset-2">
+          <input type="password" class="form-control-normal" id="inputPassword" placeholder="パスワード" required>
+        </div>
+      </div>
+
+      <div class="inputAlert">
+        <p>ユーザIDまたはパスワードが正しくありません。<p>
+      </div>
+
+      <div class="form-group text-center">
+        <button class="btn btn-primary btn-exLg">ログイン</button>
+      </div>
+
+    </div><!--container end-->
+
+
+    <ul>
+      <li><a href="userList.html">ユーザ一覧(userList.html)</a></li>
+      <li><a href="userRegist.html">ユーザ登録(userRegist.html)</a></li>
+      <li><a href="category.html">カテゴリ編集(category.html)</a></li>
+      <li><a href="movieList.html">動画一覧(movieList.html)</a></li>
+    </ul>
+
+  </body>
+</html>

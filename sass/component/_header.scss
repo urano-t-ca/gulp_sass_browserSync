@@ -1,0 +1,33 @@
+/*
+*header
+*/
+.siteHeader{
+  background: #F8F8F8;
+  border-top: 2px solid #DBDBDB;
+  &_nav{
+    & ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    &-item a{
+      display: block;
+      float: left;
+      width: 25%;
+      padding: 10px 0;
+      font-weight: bold;
+      text-align: center;
+      &:hover,&.active{
+        background: #F5F5F5;
+        border-bottom: 5px solid #E0001A;
+        color: #4597F5;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+/*
+/header end
+*/
